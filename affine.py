@@ -1,19 +1,14 @@
 def gcd(a, b):
-    if(b == 0):
-        return abs(a)
+    if(b == 0): return abs(a)
     return gcd(b, a % b)
 
 def letterToNumber(s):
-    num_list = []
-    for c in s:
-        num_list.append(str((ord(c) - 65)))
-    return num_list
+    return [ord(c) - 65 for c in s]
 
 def aInverse(a):
     for i in range(26):
         flag = (a*i)%26
-        if flag == 1:
-            return i
+        if flag == 1: return i
             
 def decrypt(a, b, cipherText):
     plaintext = ''
