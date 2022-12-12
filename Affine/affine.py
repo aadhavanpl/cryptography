@@ -25,4 +25,4 @@ for a in range(26):
         for b in range(26):
             aInv = aInverse(a)
             print(decrypt(a, b, cipherText))
-print("Plaintext: " + decrypt(23, 13, cipherText)) #23, 13 is the required plaintext as it makes the most sense (readable)
+print("Plaintext: " + decrypt(23, 13, cipherText)) #23, 13 is the required plaintext for the given example as it makes the most sense (readable)
