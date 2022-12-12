@@ -16,10 +16,13 @@ def decrypt(a, b, cipherText):
         plaintext += chr((a*(int(i)-b))%26 + 65)
     return plaintext
 
-cipherInput = "NUTALDQIQTAYRQNJDHHNLDMTLDHYVNAEDPHDMYRDAHPQDYCDTAYDLQTYFRUNMRVPJDAYRQNJDHHNLDYRDAHPQDYCDTAYDLQTYFRUNJDHHNLDERYCYCDJDHHNLDNAMYCDJDHHNLDMTLDHYNQDADDMDM"
+f = open("Affine/affine.txt", mode='r', encoding='utf-8')
+line = f.readline()
+cipherInput = line
 cipherText = letterToNumber(cipherInput)
 for a in range(26):
     if gcd(a, 26) == 1:
         for b in range(26):
             aInv = aInverse(a)
-            print(decrypt(a, b, cipherText)) #23, 13
+            print(decrypt(a, b, cipherText))
+print("Plaintext: " + decrypt(23, 13, cipherText)) #23, 13 is the required plaintext as it makes the most sense (readable)

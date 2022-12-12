@@ -1,7 +1,9 @@
 def letterToNumber(s):
     return [ord(c) - 65 for c in s]
 
-cipherInput ="IYEGXPXMMOETTNZKAYAUYYTTBBMVFFYYKKKCIGXELZFXBAVSIJZOXQBBNXUWIOYZVTFRVABXMZXWYROXAZRTXOEOLSKUTJAEKMGWABWHVAMYKPHQVCQLFMQNWOEOBRMETXOFVTQMGHJIIGIRWTKEVYQVFIFAJAEKMGWALYYVAVMUCKIYJQHLNHGGZZWGQBUTXGIMFYLRYVUDAVPIGVL"
+f = open("Vigenere/vigenere.txt", mode='r', encoding='utf-8')
+line = f.readline()
+cipherInput = line
 cipherText = letterToNumber(cipherInput)
 
 givenKey = "INTEGRITY"
