@@ -1,0 +1,17 @@
+Round 1 -> Left: cf26b472 | Right: bd2dd2ab | Round key: 181c5d75c66d
+Round 2 -> Left: bd2dd2ab | Right: 387ccdaa | Round key: 3330c5d9a36d
+Round 3 -> Left: 387ccdaa | Right: 22a5963b | Round key: 251b8bc717d0
+Round 4 -> Left: 22a5963b | Right: ff3c485f | Round key: 99c31397c91f
+Round 5 -> Left: ff3c485f | Right: 6ca6cb20 | Round key: c2c1e96a4bf3
+Round 6 -> Left: 6ca6cb20 | Right: 10af9d37 | Round key: 6d5560af7ca5
+Round 7 -> Left: 10af9d37 | Right: 308bee97 | Round key: 02765708b5bf
+Round 8 -> Left: 308bee97 | Right: a9fc20a3 | Round key: 84bb4473dccc
+Round 9 -> Left: a9fc20a3 | Right: 2e8f9c65 | Round key: 34f822f0c66d
+Round 10 -> Left: 2e8f9c65 | Right: a15a4b87 | Round key: 708ad2ddb3c0
+Round 11 -> Left: a15a4b87 | Right: 236779c2 | Round key: c1948e87475e
+Round 12 -> Left: 236779c2 | Right: b8089591 | Round key: 69a629fec913
+Round 13 -> Left: b8089591 | Right: 4a1210f6 | Round key: da2d032b6ee3
+Round 14 -> Left: 4a1210f6 | Right: 5a78e394 | Round key: 06eda4acf5b5
+Round 15 -> Left: 5a78e394 | Right: 18ca18ad | Round key: 4568581abcce
+Round 16 -> Left: 14a7d678 | Right: 18ca18ad | Round key: 194cd072de8c
+123456abcd132536
